@@ -1,9 +1,1 @@
-REPO_URL="https://github.com/N4TEM4RSH4LL/Hyper-Entropy.git"; \
-DIR_NAME=$(basename $REPO_URL .git); \
-git clone $REPO_URL && \
-cd $DIR_NAME && \
-pbpaste > index.html && \
-git add . && \
-git commit -m "Initial Hyper-Entropy deployment via CLI" && \
-git push -u origin main && \
-vercel --prod
+
